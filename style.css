@@ -1,0 +1,120 @@
+.parent-1{
+    background-color: blue;
+    width: 80%;
+    padding: 100px;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    position: relative;
+    
+}
+.parent-3{
+    background-color: black;
+    padding: 100px;
+    position: relative;
+}
+
+.parent-2{
+    background-color: yellow;
+    padding: 100px;
+    position: relative;
+}
+
+#glass{
+    background-color: orange;
+    padding: 10px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    
+
+}
+nav{
+    background-color: red;
+}
+
+ nav ul li{
+    
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px 20px;
+   
+    position: relative;
+    background-color: red;
+    
+    
+
+    
+}
+ nav ul{
+    background-color: blue;
+    
+    
+   
+    text-align: center;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 5s;
+    font-family: sans-serif;
+    
+
+    
+    font-size: 20px;
+}
+
+#plate{
+    background-color: orange;
+    padding: 10px;
+    
+    position: absolute;
+    
+    left: 50%;
+    border-radius: 20%;
+    
+
+    
+}
+
+
+ul li a:hover{
+    background-color: brown;
+    color: black;
+    
+}
+
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    background-color: blue;
+    display: none;
+    
+    
+}
+
+
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li{
+    padding: 10px 20px;
+    margin: 50px;
+}
+
+
+
+
+
+
+
+
